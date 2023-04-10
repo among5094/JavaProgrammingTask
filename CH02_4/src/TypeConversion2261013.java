@@ -1,7 +1,8 @@
-
 public class TypeConversion2261013 {
-	
 	public static void main(String[] args) {
+		//public: 모든 곳에서 접근 가능, static: 프로그램이 실행되는 순간 메모리가 할당됨
+		//void: 함수가 끝날 때 리턴값이 없다는 뜻, main: 자바의 시작은 main함수명으로 시작해야 함
+		//String[] args: args문자열을 배열로 사용하겠다는 뜻
 		
 		byte b=127; //byte는 1바이트
 		int i=100;
@@ -20,6 +21,5 @@ public class TypeConversion2261013 {
 		System.out.println((int)(2.9+1.8));
 		System.out.println((int)2.9+(int)1.8);
 		
-	}
-
-}
+	}//main method 닫기
+}//class닫기
