@@ -1,7 +1,7 @@
 public class AssignmentIncDecOperator2261013 {
 	public static void main(String[] args) {
 		
-		int a=3,b=3,c=3;
+		int a=5,b=6,c=8;
 		a+=7;
 		b*=4;
 		c%=9;
